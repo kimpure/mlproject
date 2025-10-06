@@ -1,0 +1,15 @@
+name = "kimpure/mlproject"
+version = "0.1.0"
+description = ""
+authors = ["kimpure"]
+repository = "https://github.com/kimpure/mlproject"
+license = "MIT"
+includes = [ "src/**", "pesde.toml" ]
+
+[target]
+environment = "luau"
+lib = "src/lib.luau"
+build_files = ["src"]
+
+[indices]
+default = "https://github.com/pesde-pkg/index"

@@ -1,0 +1,17 @@
+{
+  "languageMode": "strict",
+  "lint": {
+    "LocalShadow": false
+  },
+  "aliases": {
+    "model": "src/model",
+    "optim": "src/optim",
+    "gradients": "src/gradients",
+    "loss": "src/loss",
+    "utils": "src/utils",
+
+    "project": "src/lib",
+
+    "lune": "~/.lune/.typedefs/0.10.2/"
+  }
+}
